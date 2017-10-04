@@ -156,7 +156,7 @@ describe "#display_board in 'lib/display_board.rb" do
       # of the row. EX: The top row filled with X would be " X | X | X "
 
       # You would code that expectation with:
-      # expect(output).to include(" X | X | X ")
+        expect(output).to include(" X | X | X ")
       # meaning you expect the entire output to at least include a matching row.
 
       # Uncomment the following lines of code by removing the # at line start.
